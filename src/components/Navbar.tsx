@@ -1,5 +1,6 @@
 
 import React from 'react';
+// import dhsLogo from '../assets/dhs.png';
 
 const Navbar = () => {
   return (

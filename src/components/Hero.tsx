@@ -1,37 +1,38 @@
 
 import React from 'react';
+import Mainpic from '../assets/Nick&Sam.jpg';
 
 const Hero = () => {
   return (
     <section className="pt-32 pb-16 px-6 md:px-10 md:min-h-[80vh] flex flex-col">
       <div className="max-w-3xl mx-auto text-center mb-8">
         <p className="text-lg md:text-xl leading-relaxed">
-          We are a compact & nimble production company,<br/>
-          Gangsta<br/>
-          riddimmmmmmmmmm.
+          <strong>We are a small and agile production company,<br/>
+          With the ability to work in high pressure and high stress enviroments<br/>
+          Which brings out the best in us and our clients<br/></strong>
         </p>
       </div>
       
       <div  className="max-w-4xl mx-auto w-full">
         <img 
-          src="/public/assets/Nick&Sam.jpg" 
+          src={Mainpic} 
           alt="Nick & Sam from Dark Harbour Studios" 
-          className="w-full h-auto object-cover"
+          className="w-full rounded-l h-auto object-cover"
         />
       </div>
       <div id="about"></div>
       
       <div className="max-w-3xl mx-auto mt-16">
         <p className="text-sm leading-relaxed mb-8">
-          We're a lean film collective, co-run by long time local cutters amped about every aspect of an adventure, and our tireless team for each crew's peak. We pursue everything from straightforward docs, to grave issues with greater ecological urgency like water security, and always bringing a story.
+        We are Dark Harbour Studios a film production company creating high-impact, cinematic storytelling. From gritty documentaries to action-packed brand films, we capture raw, immersive moments that stand out.
         </p>
         
         <p className="text-sm leading-relaxed mb-8">
-          Our discovery and challenges have become some of our favorite tools. Seeing skiers skiing up and untelled terrain just as fast as getting a steep united line that's perfect test for ski. We're reality is accumulated and stay humble while it's still real summer and people often up against and try to always keep a good time during it.
+        we thrive in high-pressure, high-stakes environments where others might hesitate. Born in the mountains and sharpened by challenges, our team runs headlong into the chaos of filmmaking on set, in the edit, or anywhere the story leads.
         </p>
         
         <p className="text-sm leading-relaxed mb-8">
-          WRKSHRT is ordered to run into the mountains and obstacles of filmmaking, unafraid, and not have any of us stand down until during the ride. Real humans, on screen and in post, unpretended, and keeping it, even if we have to upload it to make that height canon (turbo-oriented).
+        Dark Harbour doesn’t fake it. We capture real moments, real people, and real stakes on screen and in post. We believe in keeping it raw, keeping it honest, and uploading it with intention because storytelling at altitude needs more than polish. It needs courage.
         </p>
         
         <div className="mt-10">
