@@ -1,6 +1,6 @@
 
 import React from 'react';
-import Mainpic from '../assets/Nick&Sam.jpg';
+import mainpic from '../assets/Nick&Sam.jpg';
 
 const Hero = () => {
   return (
@@ -15,7 +15,7 @@ const Hero = () => {
       
       <div  className="max-w-4xl mx-auto w-full">
         <img 
-          src={Mainpic} 
+          src={mainpic} 
           alt="Nick & Sam from Dark Harbour Studios" 
           className="w-full rounded-l h-auto object-cover"
         />
