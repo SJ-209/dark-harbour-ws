@@ -1,13 +1,31 @@
+// -ws/tailwind.config.js
+// /** @type {import('tailwindcss').Config} */
+// module.exports = {
+//   content: [
+//     "./index.html",
+//     "./src/**/*.{js,ts,jsx,tsx}",
+//   ],
+//   theme: {
+//     extend: {
+//       fontFamily: {
+//         mono: ['Space Mono', 'monospace'],
+//       },
+//     },
+//   },
+//   plugins: [],
+// }
 
-import type { Config } from "tailwindcss";
 
-export default {
+
+module.exports = {
 	darkMode: ["class"],
 	content: [
 		"./pages/**/*.{ts,tsx}",
 		"./components/**/*.{ts,tsx}",
 		"./app/**/*.{ts,tsx}",
 		"./src/**/*.{ts,tsx}",
+		"./index.html",
+		"./src/**/*.{js,ts,jsx,tsx}",
 	],
 	prefix: "",
 	theme: {
@@ -98,4 +116,4 @@ export default {
 		}
 	},
 	plugins: [require("tailwindcss-animate")],
-} satisfies Config;
+}
