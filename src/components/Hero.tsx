@@ -12,13 +12,14 @@ const Hero = () => {
         </p>
       </div>
       
-      <div className="max-w-4xl mx-auto w-full">
+      <div  className="max-w-4xl mx-auto w-full">
         <img 
           src="/placeholder.svg" 
           alt="Two people in outdoor gear in a mountain landscape" 
           className="w-full h-auto object-cover"
         />
       </div>
+      <div id="about"></div>
       
       <div className="max-w-3xl mx-auto mt-16">
         <p className="text-sm leading-relaxed mb-8">

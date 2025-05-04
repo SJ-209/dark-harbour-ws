@@ -3,7 +3,7 @@ import React from 'react';
 
 // Array of placeholder company names for logos
 const clients = [
-  "TEMPUR-PEDIC", "XTRATUF", "TETON", "VIDE SPORTS", "ARBOR",
+  "511 TACTICAL", "Raven Media Group", "TETON", "VIDE SPORTS", "ARBOR",
   "YETI", "PATAGONIA", "PATHFINDER", "SPERRY", "NORTH FACE",
   "JACKSON HOLE", "BRAINFORM", "OLYMPIC CHANNEL", "PYRENEX", "KEEN",
   "BUD LIGHT", "SNOWBOARDING", "UNION", "SNOW BOARDER", "VOLCOM",
@@ -14,7 +14,7 @@ const clients = [
 
 const Clients = () => {
   return (
-    <section className="py-20 px-6 md:px-10 bg-white">
+    <section id="clientWork" className="py-20 px-6 md:px-10 bg-white">
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-x-10 gap-y-8">
           {clients.map((client, index) => (
