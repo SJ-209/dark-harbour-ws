@@ -1,15 +1,35 @@
 
 import React from 'react';
+import TacLogo from 'public/assets/511.png';
+import RavenLogo from 'public/assets/RMG.png';
+import StirlingLogo from 'public/assets/stirling.png';
+import BritishArmyLogo from 'public/assets/BA.png';
+import ChallengeCoinLogo from 'public/assets/cc.png';
+import EsoterrecLogo from 'public/assets/esoterrec.png';
+import MogGlovesLogo from 'public/assets/mog.png';
+import ParcilsafetyLogo from 'public/assets/parcil.png';
+import SunrayLogo from 'public/assets/sunray.png';
+import C2RLogo from 'public/assets/c2r.png';
+import RevealLogo from 'public/assets/reveal.png';
+
+
+
 
 // Array of placeholder company names for logos
 const clients = [
-  "511 TACTICAL", "Raven Media Group", "TETON", "VIDE SPORTS", "ARBOR",
-  "YETI", "PATAGONIA", "PATHFINDER", "SPERRY", "NORTH FACE",
-  "JACKSON HOLE", "BRAINFORM", "OLYMPIC CHANNEL", "PYRENEX", "KEEN",
-  "BUD LIGHT", "SNOWBOARDING", "UNION", "SNOW BOARDER", "VOLCOM",
-  "LABOUR", "RED BULL", "ANDTHEDOPE TOO", "WILDCARD", "ROCKY MOUNTAIN",
-  "VICE NEWS", "CITY", "HANAH", "REVISION", "STAR",
-  "METAL", "ROARK", "QUIKSILVER", "ARIAT", "MIZU"
+  "5.11 TACTICAL", 
+  "RAVEN MEDIA GROUP", 
+  "STIRLING TIMEPIECES", 
+  "BRITISH ARMY", 
+  "CHALLENGE COIN",
+  "ESOTERREC", 
+  "MOG GLOVES", 
+  "PARCIL SAFETY", 
+  "SUNRAY", 
+  "IRON CLAD", 
+  "DFCO", 
+  "C2R", 
+  "REVEAL"
 ];
 
 const Clients = () => {

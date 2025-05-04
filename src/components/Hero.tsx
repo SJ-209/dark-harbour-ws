@@ -7,15 +7,15 @@ const Hero = () => {
       <div className="max-w-3xl mx-auto text-center mb-8">
         <p className="text-lg md:text-xl leading-relaxed">
           We are a compact & nimble production company,<br/>
-          focusing on the line between<br/>
-          authentic documentary & commercial storytelling.
+          Gangsta<br/>
+          riddimmmmmmmmmm.
         </p>
       </div>
       
       <div  className="max-w-4xl mx-auto w-full">
         <img 
-          src="/placeholder.svg" 
-          alt="Two people in outdoor gear in a mountain landscape" 
+          src="/public/assets/Nick&Sam.jpg" 
+          alt="Nick & Sam from Dark Harbour Studios" 
           className="w-full h-auto object-cover"
         />
       </div>
