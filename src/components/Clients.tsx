@@ -24,18 +24,6 @@ const clients = [
   {name: "SUNRAY", logo: SunrayLogo},
   {name: "C2R", logo: C2RLogo},
   {name: "REVEAL", logo: RevealLogo}, 
-  // "RAVEN MEDIA GROUP", 
-  // "STIRLING TIMEPIECES", 
-  // "BRITISH ARMY", 
-  // "CHALLENGE COIN",
-  // "ESOTERREC", 
-  // "MOG GLOVES", 
-  // "PARCIL SAFETY", 
-  // "SUNRAY", 
-  // "IRON CLAD", 
-  // "DFCO", 
-  // "C2R", 
-  // "REVEAL"
 ];
 
 const Clients = () => {
