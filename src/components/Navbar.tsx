@@ -1,6 +1,7 @@
 
 import React from 'react';
 import ThemeSwitch from './ThemeSwitch';
+import { Link } from 'react-router-dom';
 // import dhsLogo from '../assets/dhs.png';
 
 const Navbar = () => {
@@ -11,7 +12,8 @@ const Navbar = () => {
         <div className="hidden md:flex items-center space-x-6 text-sm">
           <a href="#about" className="hover:underline">ABOUT</a>
           <a href="#showReel" className="hover:underline">SHOW REEL</a>
-          <a href="#clientWork" className="hover:underline">CLIENT WORK</a>
+          <a href="#clientWork" className="hover:underline">CLIENTS</a>
+          <Link to="/work" className="hover:underline">WORK</Link>
           <a href="#contact" className="hover:underline">CONTACT</a>
         </div>
           <ThemeSwitch />
