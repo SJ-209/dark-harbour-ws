@@ -108,4 +108,11 @@ module.exports = {
 		}
 	},
 	plugins: [require("tailwindcss-animate")],
-}
+	theme: {
+		extend: {
+		  screens: {
+			'xs': '440px',
+		  },
+		},
+	  },
+	}
