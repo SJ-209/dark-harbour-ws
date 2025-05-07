@@ -1,29 +1,12 @@
 // -ws/tailwind.config.js
 /** @type {import('tailwindcss').Config} */
-// module.exports = {
-//   content: [
-//     "./index.html",
-//     "./src/**/*.{js,ts,jsx,tsx}",
-//   ],
-//   theme: {
-//     extend: {
-//       fontFamily: {
-//         mono: ['Space Mono', 'monospace'],
-//       },
-//     },
-//   },
-//   plugins: [],
-// }
-
-
-
 module.exports = {
 	darkMode: ["class"],
 	content: [
 		"./pages/**/*.{ts,tsx}",
 		"./components/**/*.{ts,tsx}",
 		"./app/**/*.{ts,tsx}",
-		"./src/**/*.{ts,tsx}",
+		"./src/**/*.{js,ts,jsx,tsx}",
 		"./index.html",
 		"./src/**/*.{js,ts,jsx,tsx}",
 	],
@@ -107,11 +90,20 @@ module.exports = {
 					to: {
 						height: '0'
 					}
+				},
+				slideDown: {
+					'0%': { transform: 'translateY(-10%)', opacity: 0 },
+					'100%': { transform: 'translateY(0)', opacity: 1 }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				slideDown: 'slideDown 300ms ease-out'
+			},
+			transitionProperty: {
+				'height': 'height',
+				'spacing': 'margin, padding',
 			}
 		}
 	},
