@@ -38,7 +38,7 @@ const Navbar = () => {
 
       {/* Mobile Menu Dropdown */}
       {isOpen && (
-        <div className="md:hidden absolute top-full left-0 right-0 bg-black dark:bg-black border-b">
+        <div className="md:hidden absolute text-white top-full left-0 right-0 bg-black dark:bg-black border-b">
           <div className="flex flex-col items-center space-y-4 py-4">
             <a href="#about" className="hover:underline">ABOUT</a>
             <a href="#showReel" className="hover:underline">SHOW REEL</a>
