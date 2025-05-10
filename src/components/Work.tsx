@@ -9,10 +9,12 @@ const Work = () => {
             <section id="nav" className="py-20 bg-white">
                 <nav className="fixed w-full top-0  z-50 backdrop-blur-sm border-b">
                     <div className="container mx-auto flex justify-between items-center py-4 px-6 md:px-10">
-                    <div className="font-mono font-bold text-base xs:text-xl">DARK HARBOUR STUDIOS</div>
+                    <div className="font-mono font-bold text-base xs:text-xl">
+                    <Link to="/" className="font-mono font-bold text-base xs:text-xl" >DARK HARBOUR STUDIOS</Link>
+                        </div>
                             <div className="items-center space-x-6 text-sm">
                             <Link to="/" className=" hover:underline">MAIN PAGE</Link>
-                        <ThemeSwitch />
+                            <ThemeSwitch />
                         </div>
                     </div>
                 </nav>

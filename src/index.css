@@ -129,7 +129,7 @@ footer,
   background-color: var(--background-color);
   color: var(--text-color);
 }
-
+/* 
 @media screen and (max-width: 450px) {
   nav {
     display: flex;
@@ -139,4 +139,4 @@ footer,
   .header {
     font-size: 3px;
   }
-}
+} */

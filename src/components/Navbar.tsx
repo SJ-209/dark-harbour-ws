@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className="fixed w-full top-0 z-50 backdrop-blur-sm border-b">
       <div className="container mx-auto flex justify-between items-center py-4 px-6 md:px-10">
-        <div className="font-mono font-bold text-xl">DARK HARBOUR STUDIOS</div>
+        <div className="font-mono font-bold text-gray-800 text-xl">DARK HARBOUR STUDIOS</div>
         
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-6 text-sm">

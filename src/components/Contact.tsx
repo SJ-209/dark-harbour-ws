@@ -16,7 +16,7 @@ const Contact = () => {
         </h2>
         <button
           onClick={handleEmailClick}
-          className="bg-white text-black px-8 py-3 rounded-lg font-mono 
+          className="bg-white text-black cursor-pointer hover:underline px-8 py-3 rounded-lg font-mono 
                    hover:bg-gray-200 transition-colors duration-300"
         >
           SEND US AN EMAIL
