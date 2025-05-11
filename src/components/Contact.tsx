@@ -4,9 +4,10 @@ const Contact = () => {
     const handleEmailClick = () => {
         const email = 'Info@darkharbourstudios.com';
         const subject = 'Inquiry from Dark Harbour Studios Website';
-        const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${encodeURIComponent(subject)}`;
-        window.open(gmailUrl, '_blank');
-      };
+        const mailtoUrl = `mailto:${email}?subject=${encodeURIComponent(subject)}`;
+        
+        window.open(mailtoUrl, '_blank');
+    };
 
   return (
     <div id="contact" className="py-20 px-6 md:px-10 bg-black text-white">
